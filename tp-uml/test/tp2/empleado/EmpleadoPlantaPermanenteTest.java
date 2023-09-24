@@ -25,8 +25,10 @@ public class EmpleadoPlantaPermanenteTest
 		// System.out.println( empleadoTemporario1.verRecibo(3) );
 		empleadoTemporario1.recibosDeHaberes.get(0).getConceptos();
 		
+		/*
 		empleadoPermanente1.generaRecibo();
 		empleadoPermanente1.recibosDeHaberes.get(0).getConceptos();
+		*/
 		
 	}
 

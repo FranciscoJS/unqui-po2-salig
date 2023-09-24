@@ -63,12 +63,12 @@ public class Recibo
 	 
 	 public void getConceptos()
 	 {
-		 System.out.print( "Concepto\t\t\t\t\t\t\t\tMonto\n");
+		 System.out.printf("%s %60s %n", "Concepto", "Monto");
 		 for( int indice = 0; indice < this.conceptos.size(); indice++ )
 		 {
 			 final String nombre = this.conceptos.get(indice).nombre();
 			 final int monto = this.conceptos.get(indice).monto();
-			 System.out.printf("%s\t\t\t\t\t $%d\n", nombre, monto);
+			 System.out.printf("%s %27d$ %n", nombre, monto);
 		 }
 	 }
 }
