@@ -26,7 +26,7 @@ public class DesarmadorNumeros
 		int nroActual = nro;
 		while( nroActual >= 10 || nroActual <= -10  )
 		{
-			if( this.esPar_(nroActual)  )
+			if( this.esPar_(nroActual % 10)  )
 			{
 				++contador;
 			}
