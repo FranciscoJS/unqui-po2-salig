@@ -20,7 +20,7 @@ class TrabajadorTest
 		trabajador1 = new Trabajador( "jorge" );
 		ingreso1 = new Ingreso("Abril", "Sueldo basico", 500);
 		ingreso2 = new Ingreso("Mayo", "Sueldo basico", 700);
-		ingreso3 = new IngresoHorasExtra("Mayo", "Sueldo basico", 200, 4);
+		ingreso3 = new IngresoHorasExtra("Mayo", "Horas extra", 200, 4);
 		
 		trabajador1.percibirIngreso(ingreso1);
 		trabajador1.percibirIngreso(ingreso2);
