@@ -1,5 +1,6 @@
 package ejercicios.stream.ejercicio04;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class Restaurante
@@ -21,4 +22,14 @@ public class Restaurante
 				.sum();
 	}
 	
+	
+	public String platoMasCaro()
+	{
+		return listaDePlatos.stream().max(Comparator.naturalOrder()).get().getNombre();
+	}
 }
+
+/*
+	El naturalOrder invoca al método por defecto, que en el caso de la interfaz
+	Comparator, es compareTo.
+*/
