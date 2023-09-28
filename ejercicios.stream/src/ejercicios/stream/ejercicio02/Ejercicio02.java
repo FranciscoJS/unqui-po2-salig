@@ -17,4 +17,18 @@ public class Ejercicio02
 		return encontre;
 	}
 	
+	/*
+	 * Si lo quiero hacer  con Stream ...
+	 */
+
+	public boolean algunoCumpleVersionDos( List<String> lista, String prefijo )
+	{
+		lista.stream().anyMatch( s -> s.startsWith(prefijo) );
+	}
+	
 }
+
+
+
+
+
