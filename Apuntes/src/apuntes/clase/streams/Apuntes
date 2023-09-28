@@ -1,0 +1,18 @@
+
+
+
+
+
+Filter( s -> s.startswith(p) )
+
+Lo que va dentro de filter es la función lambda.
+
+Entonces podemos usar...
+lista.stream()
+
+Esa función me devolverá un Stream. Para transformarlo en una lista
+debería usar .toList()
+
+
+En 
+
