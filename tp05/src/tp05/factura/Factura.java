@@ -10,4 +10,7 @@ public abstract class Factura implements Agencia
 		this.registrarPago(this);
 		return this.getCostoNeto();
 	}
+	
+	@Override
+	public void registrarPago(Factura factura) {}
 }

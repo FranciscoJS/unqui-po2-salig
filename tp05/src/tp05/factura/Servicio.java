@@ -15,5 +15,4 @@ public class Servicio extends Factura
 	{
 		return this.costoPorUnidad * this.unidadesConsumidas;
 	}
-
 }

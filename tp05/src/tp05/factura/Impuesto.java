@@ -13,6 +13,5 @@ public class Impuesto extends Factura
 	public float getCostoNeto()
 	{
 		return this.tasaDelServicio;
-	}
-	
+	}	
 }
