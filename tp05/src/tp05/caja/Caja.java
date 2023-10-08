@@ -28,4 +28,13 @@ public class Caja
 		return montoActual;
 	}
 	
+	/*
+	 	for( Producto producto: cliente.getProductos() )
+		{
+			montoActual += producto.registrar(this);
+		}
+		
+	 	
+	 */
+	
 }
