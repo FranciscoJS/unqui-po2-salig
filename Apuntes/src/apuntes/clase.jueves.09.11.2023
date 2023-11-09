@@ -29,3 +29,13 @@ el caso del state, se decide en torno al contexto de lo que está ocurriendo en 
 
 
 
+
+> Observer
+El observbador toma una o otra acción según lo que el observado le diga.
+El observado tiene lista de observadores o suscriptos.
+
+
+
+
+
+
